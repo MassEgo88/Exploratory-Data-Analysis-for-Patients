@@ -1,13 +1,13 @@
 # Exploratory-Data-Analysis-for-Patients
 Hospital Readmission Analysis: Understanding 30-Day Patient Readmissions
 
-# 🏥 Hospital Readmission Analysis
+#  Hospital Readmission Analysis
 
 > A healthcare analytics project focused on identifying factors associated with 30-day hospital readmissions using exploratory data analysis and interactive dashboards.
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Hospital readmissions within 30 days are a major challenge for healthcare providers. Frequent readmissions increase healthcare costs, place additional pressure on hospital resources, and may indicate gaps in post-discharge patient care.
 
@@ -15,7 +15,7 @@ The objective of this project was to analyze patient data, identify trends relat
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 Hospitals need to reduce avoidable readmissions while maintaining high-quality patient care.
 
@@ -28,7 +28,7 @@ This project answers questions such as:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 The dataset contains:
 
@@ -52,7 +52,7 @@ The dataset contains:
 
 ---
 
-# 🛠 Tools & Technologies
+#  Tools & Technologies
 
 | Tool | Purpose |
 |------|----------|
@@ -62,12 +62,12 @@ The dataset contains:
 | Matplotlib | Data Visualisation |
 | Seaborn | Exploratory Data Analysis |
 | Jupyter Notebook | Development Environment |
-| Looker Studio / Power BI | Interactive Dashboard |
+| Looker Studio | Interactive Dashboard |
 | GitHub | Version Control |
 
 ---
 
-# 📈 Project Workflow
+#  Project Workflow
 
 ```
 Raw Data
@@ -93,7 +93,7 @@ Recommendations
 
 ---
 
-# 📊 Dashboard
+#  Dashboard
 
 The dashboard provides an executive overview of hospital readmissions through:
 
@@ -108,7 +108,7 @@ The dashboard provides an executive overview of hospital readmissions through:
 
 ---
 
-## 📷 Dashboard Preview
+##  Dashboard Preview
 
 > *(Insert a screenshot of your dashboard here.)*
 
@@ -118,9 +118,9 @@ images/dashboard.png
 
 ---
 
-# 📈 Key Findings
+#  Key Findings
 
-### 📌 Readmission Rate
+###  Readmission Rate
 
 - Total Patients: **3,000**
 - Readmitted Patients: **866**
@@ -130,19 +130,19 @@ Nearly **1 in every 3 patients** returned to the hospital within 30 days.
 
 ---
 
-### 📌 Age
+###  Age
 
 Older patients experienced slightly higher readmission rates than younger patients.
 
 ---
 
-### 📌 Gender
+###  Gender
 
 Male and female patients showed very similar readmission rates, indicating that gender alone is not a significant predictor.
 
 ---
 
-### 📌 Correlation Analysis
+### Correlation Analysis
 
 Correlation analysis revealed that:
 
@@ -152,7 +152,7 @@ Correlation analysis revealed that:
 
 ---
 
-# 💡 Business Recommendations
+# Business Recommendations
 
 Based on the analysis, the following recommendations were made:
 
@@ -163,7 +163,7 @@ Based on the analysis, the following recommendations were made:
 
 ---
 
-# 📁 Repository Structure
+# Repository Structure
 
 ```
 Hospital-Readmission-Analysis/
@@ -194,7 +194,7 @@ Hospital-Readmission-Analysis/
 
 ---
 
-# 🚀 Skills Demonstrated
+#  Skills Demonstrated
 
 - Data Cleaning
 - Exploratory Data Analysis (EDA)
@@ -208,7 +208,7 @@ Hospital-Readmission-Analysis/
 
 ---
 
-# 📚 Future Improvements
+# Future Improvements
 
 - Build a Machine Learning model to predict readmissions.
 - Deploy the dashboard online.
@@ -218,9 +218,9 @@ Hospital-Readmission-Analysis/
 
 ---
 
-# 👨‍💻 About Me
+# About Me
 
-I'm an aspiring Data Analyst passionate about transforming raw data into actionable business insights.
+I'm a Data Analyst passionate about transforming raw data into actionable business insights.
 
 I enjoy working with:
 
@@ -234,11 +234,11 @@ I enjoy working with:
 
 ---
 
-## 📬 Connect With Me
+## Connect With Me
 
-**GitHub:** https://github.com/yourusername
+**GitHub:** https://github.com/MassEgo88
 
-**LinkedIn:** https://linkedin.com/in/yourprofile
+**LinkedIn:** https://www.linkedin.com/in/masego-peele-serote-16476a95/
 
 **Email:** msgpl117@gmail.com
 
