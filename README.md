@@ -1,25 +1,8 @@
-<img width="1536" height="1024" alt="Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital" src="https://github.com/user-attachments/assets/69363ff5-fedc-439b-bfc0-c7a992a10acf" /># Exploratory-Data-Analysis-for-Patients
-Hospital Readmission Analysis: Understanding 30-Day Patient Readmissions
+
 
 #  Hospital Readmission Analysis
 
 > A healthcare analytics project focused on identifying factors associated with 30-day hospital readmissions using exploratory data analysis and interactive dashboards.
-
----
-
-## 📊 Dashboard Preview
-
-### Interactive Dashboard
-
-👉 **View Live Dashboard:** (https://royal-care-hospital.lovable.app)]
-
-
-### Dashboard Screenshot
-
-![Hospital Readmission Dashboard](images/Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital.png…])
-
-![Hospital Readmission Dashboard](images/<img width="479" height="479" alt="Hospital_Patient_Readmission_EDA_Dashboard_Analysis" src="https://github.com/user-attachments/assets/fcd07abb-8d57-4b14-b0b5-060f33ef79d5" />
-
 
 ---
 
@@ -124,15 +107,22 @@ The dashboard provides an executive overview of hospital readmissions through:
 - Correlation Heatmap
 - Interactive Filters
 
+
 ---
 
-##  Dashboard Preview
+## Dashboard Preview
 
-> *(Insert a screenshot of your dashboard here.)*
+### Interactive Dashboard
 
-```
-images/dashboard.png
-```
+ **View Live Dashboard:** (https://royal-care-hospital.lovable.app)]
+
+
+### Dashboard Screenshot
+
+![Hospital Readmission Dashboard](images/<img width="1536" height="1024" alt="Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital" src="https://github.com/user-attachments/assets/69363ff5-fedc-439b-bfc0-c7a992a10acf" /># Exploratory-Data-Analysis-for-Patients
+Hospital Readmission Analysis: Understanding 30-Day Patient Readmissions
+
+![Hospital Readmission Dashboard](images/<img width="479" height="479" alt="Hospital_Patient_Readmission_EDA_Dashboard_Analysis" src="https://github.com/user-attachments/assets/fcd07abb-8d57-4b14-b0b5-060f33ef79d5" />
 
 ---
 
