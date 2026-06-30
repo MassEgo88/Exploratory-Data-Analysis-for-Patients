@@ -1,9 +1,24 @@
-# Exploratory-Data-Analysis-for-Patients
+<img width="1536" height="1024" alt="Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital" src="https://github.com/user-attachments/assets/69363ff5-fedc-439b-bfc0-c7a992a10acf" /># Exploratory-Data-Analysis-for-Patients
 Hospital Readmission Analysis: Understanding 30-Day Patient Readmissions
 
 #  Hospital Readmission Analysis
 
 > A healthcare analytics project focused on identifying factors associated with 30-day hospital readmissions using exploratory data analysis and interactive dashboards.
+
+---
+
+## 📊 Dashboard Preview
+
+### Interactive Dashboard
+
+👉 **View Live Dashboard:** (https://royal-care-hospital.lovable.app)]
+
+
+### Dashboard Screenshot
+
+![Hospital Readmission Dashboard](images/Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital.png…])
+
+![Hospital Readmission Dashboard](images/Hospital_Patient_Readmission_EDA_Dashboard_Analysis.png_])
 
 ---
 
@@ -14,6 +29,8 @@ Hospital readmissions within 30 days are a major challenge for healthcare provid
 The objective of this project was to analyze patient data, identify trends related to hospital readmissions, and provide data-driven recommendations that can help improve patient outcomes.
 
 ---
+
+
 
 ##  Business Problem
 
