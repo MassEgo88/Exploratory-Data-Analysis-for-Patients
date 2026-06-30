@@ -18,7 +18,8 @@ Hospital Readmission Analysis: Understanding 30-Day Patient Readmissions
 
 ![Hospital Readmission Dashboard](images/Hospital_Patient_Readmission_EDA_Dashboard_Royal_Care_Hospital.png…])
 
-![Hospital Readmission Dashboard](images/Hospital_Patient_Readmission_EDA_Dashboard_Analysis.png_])
+![Hospital Readmission Dashboard](images/<img width="479" height="479" alt="Hospital_Patient_Readmission_EDA_Dashboard_Analysis" src="https://github.com/user-attachments/assets/fcd07abb-8d57-4b14-b0b5-060f33ef79d5" />
+
 
 ---
 
