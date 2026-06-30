@@ -114,7 +114,7 @@ The dashboard provides an executive overview of hospital readmissions through:
 
 ### Interactive Dashboard
 
- **View Live Dashboard:** (https://royal-care-hospital.lovable.app)]
+ **View Live Dashboard:** [(https://royal-care-hospital.lovable.app)](https://royal-care-hospital.lovable.app/)
 
 
 ### Dashboard Screenshot
