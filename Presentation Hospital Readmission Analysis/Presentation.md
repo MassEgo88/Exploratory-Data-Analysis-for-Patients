@@ -1,1 +1,87 @@
 
+##  Slide 1: Introduction & Project Goal##  Slide Layout & Visual Elements
+
+* Main Title: Data-Driven Insights into Hospital Readmissions
+* Subtitle: Identifying Risk Patterns to Improve 30-Day Patient Outcomes
+* Visual Anchor: Place your Looker Studio KPI Header at the top right of this slide layout, displaying the scale of your study: 3,000 Total Patients.
+
+##  Presentation Script (What to Say)
+
+"Good morning, everyone. Today, I want to take you through a data-driven investigation into one of healthcare's most complex and expensive challenges: 30-day hospital readmissions. When a patient returns shortly after discharge, it puts severe pressure on hospital resources, increases financial costs, and often flags potential gaps in transitional care.
+The core goal of this Exploratory Data Analysis was to look beyond raw numbers and identify patterns. By analyzing 3,000 unique patient records, our objective is to isolate what clinical or demographic factors actually drive patients back to the hospital, allowing us to pivot from reactive treatments to proactive care."
+
+------------------------------
+##  Slide 2: Data Quality & Structure##  Slide Layout & Visual Elements
+
+* Title: Dataset Integrity & Feature Overview
+* Left Column (Bullet Points):
+* 3,000 Complete Patient Records
+   * Zero Missing Values / Outliers Cleaned
+   * Balanced Mix of Demographics and Clinical Markers
+* Right Column (Visual): A clean bulleted list or icon grid of tracked columns: Age, Gender, Length of Stay, Admission Type, Vital Signs.
+
+##  Presentation Script (What to Say)
+
+"Before diving into predictive logic, we had to ensure our foundation was solid. We processed a robust dataset containing exactly 3,000 unique records. What makes this data particularly valuable for analysis is its completeness—we have zero missing fields, meaning our conclusions are statistically sound and free from calculation gaps.
+We tracked a holistic view of the patient pipeline: starting with basic demographics like Age and Gender, moving into operational metrics like Length of Stay and Admission Type, and ending with critical clinical data such as primary diagnoses and vital signs. This structural cleanliness ensures that the insights we display next are completely reliable."
+
+------------------------------
+##  Slide 3: Baseline Readmission Rate##  Slide Layout & Visual Elements
+
+* Title: The Baseline: How Many Patients Return?
+* Left Column (Massive Callout KPI): 28.9% 30-Day Readmission Rate
+* Right Column (Visual): Your two main Looker Studio KPI scorecards placed stacked or side-by-side:
+* Readmitted Patients: 866
+   * Non-Readmitted Patients: 2,134
+
+##  Presentation Script (What to Say)
+
+"Let's establish our baseline reality. Out of our 3,000 patients, exactly 866 individuals were readmitted to the hospital within a 30-day window. Mathematically, this yields a 30-day readmission rate of 28.9%.
+To put that into perspective for clinical operations, nearly one out of every three patients discharged from our facilities returns within a month. This is a massive operational and financial burden. If we can understand why these 866 patients are bouncing back, we can deploy targeted interventions to keep them safe at home and free up hundreds of critical hospital beds."
+
+------------------------------
+##  Slide 4: Correlation & Clinical Drivers (The "Aha!" Moment)##  Slide Layout & Visual Elements
+
+* Title: The Complexity of Care: Correlation Analysis
+* Left Side (Visual 1): Your Looker Studio Pivot Table Heatmap (showing flat values near 0.00).
+* Middle (Visual 2): Your Python Age Box Plot (showing identical blue boxes for 'Yes' and 'No').
+* Right Side (Visual 3): Your Python Length of Stay Stacked Histogram (showing flat red layers).
+
+##  Presentation Script (What to Say)
+
+"Now we arrive at the most surprising and critical finding of our entire study. When we ran a correlation matrix across our numeric metrics, we expected to see a clear smoking gun—perhaps older patients or patients with extremely long hospital stays were returning more often. Instead, our correlation values hovered uniformly close to 0.00. No single standalone clinical factor dictates readmission.
+Look closely at our Box Plot analysis for Patient Age. The median age, the distribution box, and the whiskers are almost perfectly identical between the patients who went home safely and those who returned. Age does not predict readmission.
+Next, look at our Stacked Histogram for Length of Stay. Whether a patient was discharged after 2 days or kept for 25 days, the underlying red volume of readmitted cases remains completely flat. This tells us that simply keeping a patient in a hospital bed longer does not cure the underlying issues causing them to return. Patient outcomes are vastly more complex than any single measurement."
+
+------------------------------
+##  Slide 5: Operational & Diagnosis Profiling##  Slide Layout & Visual Elements
+
+* Title: Operational Risk: Profiling Admissions & Diagnoses
+* Left Side (Visual): Your fixed Horizontal Bar Chart showing Admission Type (Emergency, Elective, Urgent) broken down by Readmission Status counts.
+
+##  Presentation Script (What to Say)
+
+"Since standalone clinical metrics didn't give us a clear answer, we looked at operational routing. By utilizing a horizontal bar chart to analyze how patients enter our system, we uncover true behavioral patterns.
+When we break down our data by Emergency, Urgent, and Elective entries, we can see that Emergency admissions drive the vast majority of our overall patient volume. However, when we apply our readmission breakdown dimension directly across these categories, we notice that the ratio of returns remains stubbornly proportional across the board. This further cements our core data thesis: hospital readmissions cannot be solved by categorizing people by a single department or entry point. It requires systemic tracking."
+
+------------------------------
+##  Slide 6: Recommendations & Strategic Action##  Slide Layout & Visual Elements
+
+* Title: From Data Insights to Clinical Action
+* Actionable Strategy Grid:
+* Holistic Pre-Discharge Risk Assessments: Stop looking at just Age or Length of Stay; build a unified risk scoring profile. 
+* 48-Hour Mandatory Telehealth Follow-ups: Focus clinical outreach during the highly vulnerable first week post-discharge.
+* Predictive Dashboard Integration: Embed live Looker Studio tracking into hospital administrative meetings.
+
+##  Presentation Script (What to Say)
+
+"So, how do we turn these data insights into actual hospital strategy? Because our EDA clearly proves that no single metric acts as a standalone predictor, our first recommendation is to move completely away from siloed risk tracking. We should not flag a patient as high-risk just because they are elderly or had a major surgery. Instead, we must introduce holistic, multi-factor risk assessments before a patient is cleared for discharge.
+Secondly, because the risk is distributed so evenly, the solution lies in the transition window. We recommend instituting mandatory telehealth check-ins within 48 hours of discharge for all patients, focusing heavily on monitoring them through that critical first 30-day baseline period. By utilizing predictive analytics tools—like the very dashboards we've built today—healthcare providers can identify vulnerable patient profiles before they exit our doors. Thank you, and I am happy to open the floor to any questions."
+
+------------------------------
+## Pro-Tips for Your Live Presentation Delivery
+
+* Interactivity Live Demo: When presenting Slide 5, open your Looker Studio dashboard live. Click your drop-down filter for Admission Type or Gender and show your instructors how the scorecards dynamically recalculate. It demonstrates massive authority over your technical tools.
+* Address Your Dashboard Fix: If your professor asks about your visualization design, proudly mention that you deliberately built custom calculations using SUM(CASE WHEN...) and COUNTIF styles to override Looker Studio's default categorical limitations, ensuring precise mathematical alignments.
+
+Would you like me to help you write a clean summary paragraph of these findings that you can submit as the text description for your project's final grade portal?
